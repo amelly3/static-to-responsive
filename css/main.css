@@ -57,7 +57,7 @@ header {
 header h1 {
 	margin: 0;
 	width: 100%;
-	padding: 1em 1.5em .5em 1.5em;
+	padding: 1em 1em .5em 1em;
 	border-bottom: solid #77a466;
 }
 header h1 span {
@@ -212,5 +212,12 @@ footer span {
 
 	header nav {
 		width: 40%;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		justify-content: space-between;
+		padding: 0 3.1em 0 3.1em;
 	}
 }
